@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+    {% load staticfiles %}
+    <link rel="stylesheet", href="{% static 'css/style.css' %}", type="text/css">
+</head>
+<body>
+  <form id="form" method="get" action="/translate/">
+    <p>Сфокусируйтесь на поле и нажмите какую-нибудь клавишу.</p>
+    <input type="text" placeholder="Клавиши нажимать тут" id="kinput" name="q" value="{{ text }}">
+    <input type="text" value= "{{ translated }}" >
+    <!-- <input type="button" value="Очистить" onclick="area.value = ''" /> -->
+    <a href="translate/"> <input type="submit" value="Перевести" /></a>
+  </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+url_detect = 'https://translate.yandex.net/api/v1.5/tr.json/detect?'
+url_translate = 'https://translate.yandex.net/api/v1.5/tr.json/translate?'
+translate_token = 'trnsl.1.1.20190219T181856Z.bbb016005fafab95.6f5174ca5f31c3162c6bdfda5ddc716995b69999'
+bot_token = '774865921:AAHde2ZlzuESTmGhR9zKKq7bM6W9bR52nWE'
+proxy_ip = '195.201.137.246'
+proxy_port = '1080'
