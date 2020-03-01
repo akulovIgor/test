@@ -15,7 +15,7 @@ def translate(request):
         elif translated == 'ru':
             translated = get_translate(text, 'en')['text']
         else:
-            translated = 'Иди на хуй! Тебе не надо переводить этот текст.'
+            translated = 'Я тебя не понимаю'
         args = {'text': text, 'translated': translated}
         return render(request, 'index.html', args)
     return render_to_response('index.html', {'text': '', 'translated': ''})
